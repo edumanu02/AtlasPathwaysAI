@@ -1,10 +1,10 @@
-# Titan
-Titan is a Rust library for building LLM-powered applications that focuses on ergonomics and modularity.
+# Atlas
+Atlas is a Rust library for building LLM-powered applications that focuses on ergonomics and modularity.
 
 More information about this crate can be found in the [crate documentation](https://docs.rs/rig-core/latest/rig/).
 ## Table of contents
 
-- [Titan](#titan)
+- [Atlas](#atlas)
   - [Table of contents](#table-of-contents)
   - [High-level features](#high-level-features)
   - [Installation](#installation)
@@ -18,4 +18,4 @@ More information about this crate can be found in the [crate documentation](http
 
 ## Installation
 ```bash
-cargo add titan-core
+cargo add atlas-core
