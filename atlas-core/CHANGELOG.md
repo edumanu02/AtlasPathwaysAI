@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.6.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.5.0...titan-core-v0.6.0) - 2024-12-19
+## [0.6.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.5.0...atlas-core-v0.6.0) - 2024-12-19
 
 ### Added
 
 - agent pipelines (#131)
-- *(titan-anthropic)* Add default `max_tokens` for standard models (#151)
+- *(atlas-anthropic)* Add default `max_tokens` for standard models (#151)
 
 ### Fixed
 
@@ -23,25 +23,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - *(ollama-example)* implement example showcasing ollama (#148)
 - *(embeddings)* add embedding distance calculator module (#142)
 
-## [0.5.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.4.1...titan-core-v0.5.0) - 2024-12-03
+## [0.5.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.4.1...atlas-core-v0.5.0) - 2024-12-03
 
 ### Added
 
-- Improve `InMemoryVectorStore` API ([#130](https://github.com/0xPlaygrounds/titan/pull/130))
-- embeddings API overhaul ([#120](https://github.com/0xPlaygrounds/titan/pull/120))
-- *(provider)* xAI (grok) integration ([#106](https://github.com/0xPlaygrounds/titan/pull/106))
+- Improve `InMemoryVectorStore` API ([#130](https://github.com/AtlasPathways/AtlasPathwaysai/pull/130))
+- embeddings API overhaul ([#120](https://github.com/AtlasPathways/AtlasPathwaysai/pull/120))
+- *(provider)* xAI (grok) integration ([#106](https://github.com/AtlasPathways/AtlasPathwaysai/pull/106))
 
 ### Fixed
 
-- *(titan-lancedb)* rag embedding filtering ([#104](https://github.com/0xPlaygrounds/titan/pull/104))
+- *(atlas-lancedb)* rag embedding filtering ([#104](https://github.com/AtlasPathways/AtlasPathwaysai/pull/104))
 
-## [0.4.1](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.4.0...titan-core-v0.4.1) - 2024-11-13
+## [0.4.1](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.4.0...atlas-core-v0.4.1) - 2024-11-13
 
 ### Other
 
-- Inefficient context documents serialization ([#100](https://github.com/0xPlaygrounds/titan/pull/100))
+- Inefficient context documents serialization ([#100](https://github.com/AtlasPathways/AtlasPathwaysai/pull/100))
 
-## [0.4.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.3.0...titan-core-v0.4.0) - 2024-11-07
+## [0.4.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.3.0...atlas-core-v0.4.0) - 2024-11-07
 
 ### Added
 
@@ -65,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix loaders module docs references
 - Add docstrings to loaders module
 - Improve main lib docs
-- Add `all` feature flag to titan-core
+- Add `all` feature flag to atlas-core
 - *(gemini)* add utility config docstring
 - *(gemini)* remove try_from and use serde deserialization
 - Merge branch 'main' into feat/model-provider/16-add-gemini-completion-embedding-models
@@ -75,7 +75,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - *(provider-gemini)* test pre-commits
 - *(provider-gemini)* Update readme entries, add gemini agent example
 
-## [0.3.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.2.1...titan-core-v0.3.0) - 2024-10-24
+## [0.3.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.2.1...atlas-core-v0.3.0) - 2024-10-24
 
 ### Added
 
@@ -98,9 +98,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simplify `agent_with_tools` example
 - Fix docstring links
 - Add nextest test runner to CI
-- Merge pull request [#42](https://github.com/0xPlaygrounds/titan/pull/42) from 0xPlaygrounds/refactor(vector-store)/update-vector-store-index-trait
+- Merge pull request [#42](https://github.com/AtlasPathways/AtlasPathwaysai/pull/42) from AtlasPathways/refactor(vector-store)/update-vector-store-index-trait
 
-## [0.2.1](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.2.0...titan-core-v0.2.1) - 2024-10-01
+## [0.2.1](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.2.0...atlas-core-v0.2.1) - 2024-10-01
 
 ### Fixed
 
@@ -108,9 +108,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Other
 
-- Merge pull request [#45](https://github.com/0xPlaygrounds/titan/pull/45) from 0xPlaygrounds/fix/docs
+- Merge pull request [#45](https://github.com/AtlasPathways/AtlasPathwaysai/pull/45) from AtlasPathways/fix/docs
 
-## [0.2.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.1.0...titan-core-v0.2.0) - 2024-10-01
+## [0.2.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.1.0...atlas-core-v0.2.0) - 2024-10-01
 
 ### Added
 
@@ -128,13 +128,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Other
 
-- Merge pull request [#43](https://github.com/0xPlaygrounds/titan/pull/43) from 0xPlaygrounds/fix/context-documents
-- Merge pull request [#27](https://github.com/0xPlaygrounds/titan/pull/27) from 0xPlaygrounds/feat/anthropic
+- Merge pull request [#43](https://github.com/AtlasPathways/AtlasPathwaysai/pull/43) from AtlasPathways/fix/context-documents
+- Merge pull request [#27](https://github.com/AtlasPathways/AtlasPathwaysai/pull/27) from AtlasPathways/feat/anthropic
 - Fix docstrings
 - Deprecate RagAgent and Model in favor of versatile Agent
 - Make RagAgent VectorStoreIndex dynamic trait objects
 
-## [0.1.0](https://github.com/0xPlaygrounds/titan/compare/titan-core-v0.0.7...titan-core-v0.1.0) - 2024-09-16
+## [0.1.0](https://github.com/AtlasPathways/AtlasPathwaysai/compare/atlas-core-v0.0.7...atlas-core-v0.1.0) - 2024-09-16
 
 ### Added
 
@@ -147,6 +147,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Other
 
-- Merge pull request [#18](https://github.com/0xPlaygrounds/titan/pull/18) from 0xPlaygrounds/feat/perplexity-support
+- Merge pull request [#18](https://github.com/AtlasPathways/AtlasPathwaysai/pull/18) from AtlasPathways/feat/perplexity-support
 - Add logging of http errors
 - fmt code
